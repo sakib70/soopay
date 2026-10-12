@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 420" shape-rendering="geometricPrecision">
+  <defs>
+    <style>
+      .s-letter {
+        font-family: -apple-system, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif;
+        font-weight: 900;
+        font-size: 280px;
+        fill: #F8F5F0;
+        dominant-baseline: auto;
+      }
+    </style>
+    <!-- Clip to shape so S doesn't overflow -->
+    <clipPath id="c">
+      <path d="M80,0 L430,0 Q500,0 500,70 L500,350 Q500,420 430,420 L80,420 Q32,420 8,388 L0,210 L8,32 Q32,0 80,0 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Outer shape: ribbon/tag pointing left -->
+  <path
+    d="M80,0 L430,0 Q500,0 500,70 L500,350 Q500,420 430,420 L80,420 Q32,420 8,388 L0,210 L8,32 Q32,0 80,0 Z"
+    fill="#FF1100"
+  />
+
+  <!-- S lettermark, clipped to shape -->
+  <text
+    x="262"
+    y="355"
+    text-anchor="middle"
+    class="s-letter"
+    clip-path="url(#c)"
+  >S</text>
+</svg>

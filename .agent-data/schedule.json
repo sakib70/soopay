@@ -1,0 +1,10 @@
+{
+  "enabled": true,
+  "recipientEmail": "soopayarc@gmail.com",
+  "payrollDay": 31,
+  "alertDaysBefore": 1,
+  "timezone": "Asia/Dhaka",
+  "updatedAt": 1791623266529,
+  "onchainTxHash": "0x740b67e1e6fb7f57b5a950a61e218b6575ec217c1569fde06e7bda664902cdde",
+  "onchainConfigHash": "0x00e0a72af70e14ebfc8481fe1205a2611179568e710699cbea27142e41573683"
+}
