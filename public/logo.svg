@@ -1,32 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 420" shape-rendering="geometricPrecision">
-  <defs>
-    <style>
-      .s-letter {
-        font-family: -apple-system, 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif;
-        font-weight: 900;
-        font-size: 280px;
-        fill: #F8F5F0;
-        dominant-baseline: auto;
-      }
-    </style>
-    <!-- Clip to shape so S doesn't overflow -->
-    <clipPath id="c">
-      <path d="M80,0 L430,0 Q500,0 500,70 L500,350 Q500,420 430,420 L80,420 Q32,420 8,388 L0,210 L8,32 Q32,0 80,0 Z"/>
-    </clipPath>
-  </defs>
-
-  <!-- Outer shape: ribbon/tag pointing left -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Outer shape: rounded rect with diagonal top-left cut -->
   <path
-    d="M80,0 L430,0 Q500,0 500,70 L500,350 Q500,420 430,420 L80,420 Q32,420 8,388 L0,210 L8,32 Q32,0 80,0 Z"
-    fill="#FF1100"
+    d="M29,2 L84,2 Q98,2 98,16 L98,84 Q98,98 84,98 L16,98 Q2,98 2,84 L2,29 Z"
+    fill="#FF0000"
   />
-
-  <!-- S lettermark, clipped to shape -->
-  <text
-    x="262"
-    y="355"
-    text-anchor="middle"
-    class="s-letter"
-    clip-path="url(#c)"
-  >S</text>
+  <!-- S letterform — white, bold, positioned upper-center -->
+  <!-- Top bowl of S -->
+  <path
+    d="M38,18 L62,18 Q76,18 76,32 Q76,46 62,46 L45,46 Q38,46 38,50 Q38,54 45,54 L62,54 Q76,54 76,68 Q76,82 62,82 L38,82 L38,72 L62,72 Q68,72 68,68 Q68,64 62,64 L45,64 Q31,64 31,50 Q31,36 45,36 L62,36 Q68,36 68,32 Q68,28 62,28 L38,28 Z"
+    fill="#F9F8F4"
+  />
 </svg>
